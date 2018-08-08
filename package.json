@@ -1,0 +1,43 @@
+{
+  "name": "h-tool",
+  "version": "1.0.0",
+  "description": "互动h5常用工具集合",
+  "main": "dist/h.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c --watch",
+    "server": "puer -p 9022"
+  },
+  "keywords": [],
+  "author": "lishican",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "builtin-modules": "^3.0.0",
+    "npm-run-all": "^4.1.3",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-postcss": "^1.6.2",
+    "rollup-plugin-uglify": "^4.0.0",
+    "uglify-es": "^3.3.9"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "blueimp-md5": "^2.10.0",
+    "dayjs": "^1.7.4",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.2",
+    "qs": "^6.5.2",
+    "uuid": "^3.3.2"
+  }
+}
